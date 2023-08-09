@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>499</width>
+    <height>256</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>490</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>490</width>
+     <height>250</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>490</width>
+     <height>250</height>
+    </size>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>240</width>
+      <height>240</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>240</width>
+      <height>240</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>240</width>
+      <height>240</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Images/download.jpg);
+border-top-left-radius:50px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>240</width>
+      <height>240</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>240</width>
+      <height>240</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>240</width>
+      <height>240</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,50);
+border-top-left-radius:50px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>10</y>
+      <width>240</width>
+      <height>240</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(4, 159, 56);
+border-bottom-right-radius:50px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>306</x>
+      <y>27</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>266</x>
+      <y>57</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(46,82,101,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Usuário</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>266</x>
+      <y>97</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgba(46,82,101,200);
+color:rgba(0,0,0,240);
+padding-bottom:7px;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Senha</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>140</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
+	color:rgba(255,255,255,210);
+	border-radius:5px;
+}
+
+QPushButton#pushButton:hover{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+QPushButton#pushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(150,123,111,255)
+}</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>230</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(0,0,0,210);</string>
+    </property>
+    <property name="text">
+     <string>Esqueceu sua senha?</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
